@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: 'VibeCoding-Project',
+  base: '/VibeCoding-Project/',
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
